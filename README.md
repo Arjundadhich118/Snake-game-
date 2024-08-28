@@ -43,7 +43,7 @@ def main():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 quit()
-            # Arrow keys for changing direction
+
             elif event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_UP:
                     change_to = 'UP'
